@@ -1,0 +1,247 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+
+button:focus, input:focus, textarea:focus, a:focus {
+  outline: none;
+}
+
+/*=================================container=================================*/
+
+.container{
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 25px 15px;
+}
+/*================================/container=================================*/
+
+/*=================================header====================================*/
+.header{
+	background-color: #333;
+	padding: 5px 0;
+}
+.navigation__menu{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.navigation__page{
+	margin: 0 10px;
+	font-size: 18px;
+}
+
+/*==================================about=====================================*/
+.about{
+	text-align: center;
+	padding: 30px 0;
+}
+
+/*==================================/about=====================================*/
+
+/*==================================product===================================*/
+.product{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 30px 0;
+}
+
+.product__item{
+	padding: 20px;
+	text-align: center;
+	width: 25%;
+}
+
+
+.product__item a{
+	color: #333;
+}
+.product__item img {
+	height: 320px;
+	width: 100%;
+}
+
+.product__price{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px 0;	
+}
+
+.btn {
+	margin: 5px 0;
+	width: 100%;
+	font-size: 16px;
+	border: 1px solid #333;
+	padding: 5px 0;
+	cursor: pointer;	
+}
+
+.btn:hover{
+	background-color: #333;
+	color: #fff;
+}
+
+
+/*=================================/product====================================*/
+
+/*==================================footer======================================*/
+
+.footer{
+	background-color: #333;
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer a{
+	font-size: 14px;
+}
+
+.footer__content{
+	text-align: center;
+	padding: 30px 0;
+}
+
+.footer__content ul{
+	padding: 0;
+}
+
+.footer__item{
+	justify-content: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+
+.footer__page{
+	margin: 0 10px;
+}
+
+/*==================================/footer======================================*/
+
+/*================================form=========================================*/
+.container-form{
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+label {
+   font-size: 18px;
+   margin: 10px 0px 0px 0px;
+}
+
+input, textarea {
+	width: 98%;
+   border: 1px solid #333;
+	padding: 10px 5px;
+   margin: 10px 0;
+   font-size: 16px;
+   display: block;
+}
+textarea {
+   height: 98px;
+   margin-bottom: 32px;
+
+}
+input[type="submit"] {
+	cursor: pointer;
+	font-size: 23px;
+	width: 100%;
+}
+
+input[type="submit"]:hover{
+	color: #fff;
+	background-color: #333
+}
+
+/*===============================/form=========================================*/
+
+/*================================single=======================================*/
+.single__product{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 80px 0;
+}
+.single__left{
+	width: 45%;
+	padding-right: 40px;
+}
+
+.single__right{
+	width: 50%;
+	text-align: center;
+}
+
+.single__left img{
+	width: 100%;
+}
+
+.single__comments{
+	color: #333;
+}
+
+/*================================/single======================================*/
+
+.comment{
+	font-size: 18px;
+	border: 1px solid;
+	padding: 20px;
+	margin: 35px 0;
+}
+
+.moder__table a {
+	color: #333;
+}
+
+.lk__products{
+	display: block;
+}
+
+.lk__products a {
+	color: #333;
+}
+
+.btn__lk {
+	width: 30%;
+	margin: 5px 0;
+	font-size: 16px;
+	border: 1px solid #333;
+	padding: 5px 0;
+	cursor: pointer;	
+
+}
+
+.btn__lk:hover{
+	background-color: #333;
+	color: #fff;
+}
